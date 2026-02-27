@@ -6,7 +6,7 @@ is_student = True
 print(f"Name: {name}, Age: {age}, Height: {height}, Is Student: {is_student}")
 
 # 2. Control Structures
-if age > 18:
+if age > 19:
     print("You are an adult.")
 else:
     print("You are a minor.")
@@ -14,7 +14,8 @@ else:
 # 3. Loops
 for i in range(5):
     print(f"Iteration {i}")
-    
+
+
 # 4. Functions
 def greet(name):
     return f"Hello, {name}!"
